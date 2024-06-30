@@ -1,0 +1,66 @@
+.register {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .rContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid #333;
+    padding: 20px;
+    /* border-radius: 3px solid #333; */
+  }
+
+  .rContainer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 0 auto;
+    font-size: 30px;
+  }
+
+  
+  .rInput{
+    display: flex;
+    /* flex-direction: column; */
+    height: 20px;
+    gap: 30px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 300px;
+    padding: 10px;
+  }
+
+  .rInput input {
+    height: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .rButton {
+    border: none;
+    padding: 10px 20px;
+    margin-top: 90px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    /* align-self: center; */
+    margin-left: 80px;
+  }
+  
+  .rButton:disabled{
+    background-color: #0071c28c;
+    cursor: not-allowed;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }

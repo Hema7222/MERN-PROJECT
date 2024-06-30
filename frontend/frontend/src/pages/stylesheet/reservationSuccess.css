@@ -1,0 +1,31 @@
+.reservation h2{
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    margin-left: 535px;
+}
+
+.reservationDetails {
+    border: 1px solid #ccc;
+    padding: 40px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin: 0 auto;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .reservationDetails p {
+    margin: 10px 0;
+    
+  }
+  
+  .confirmed {
+    color: green;
+  }
+
+  .name{
+    font-weight: bold;
+  }
